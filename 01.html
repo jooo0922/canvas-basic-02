@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canvas</title>
+    <script src="canvas.js" defer></script>
+    <style>
+      canvas {
+        /* 
+        캔버스는 기본적으로 색깔을 가지고 있지 않아서
+        css에서 배경색을 지정해주지 않으면 투명하게 나옴.
+        육안으로 캔버스 영역을 구분하기 위해서 css로 배경을 칠해주는 것.  
+         */
+        background: #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas class="canvas" width="600" height="400">
+      이 브라우저는 캔버스를 지원하지 않습니다.
+    </canvas>
+  </body>
+</html>
